@@ -5,7 +5,7 @@ The project demonstrates my skills in **backend development**, **Docker-based de
 - Ready for cloud deployment or local testing
 - Hands-on with migrations, admin, and scalable API design
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - Python 3.11
 - Django & Django REST Framework
@@ -30,18 +30,18 @@ docker compose run web python manage.py migrate
 docker compose run web python manage.py createsuperuser
 ```
 (for Django Admin access at `/admin/`)
-## 🖥️ API Endpoints
+## API Endpoints
 
 - `POST /api/register/` : Register new user/customer
 - `POST /api/login/` : Login to account
 - `GET /api/view-loan/<amount>/` : Check loan eligibility
 - `GET /api/view-customer/<phone>/` : See customer record
 - (See full API docs in backend assignment PDF or code comments)
-## 🔒 Admin Dashboard
+## Admin Dashboard
 
 - Visit `/admin/` to manage data/models
 - Login with superuser credentials created above
-## 💡 About Me
+## About Me
 
 This assessment reflects my ability to:
 - Build production-grade APIs (Python, Django, REST)
@@ -50,7 +50,7 @@ This assessment reflects my ability to:
 - Support cloud deployment, reliability, and DevOps best practices
 
 I'm eager to contribute to Alemeno's engineering team, work on real-world ML integrations, and grow as a Software Developer.
-## 📄 Submission Requirements
+## Submission Requirements
 - All files required for review are included (`Dockerfile`, `docker-compose.yml`, `requirements.txt`, API source code).
 - Setup steps and local test instructions are above.
 - For any review/demo, please run `docker compose up` and test via the provided API endpoints or admin dashboard.
